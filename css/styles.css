@@ -3,10 +3,10 @@
   padding: 0px 0px; }
 
 .row-content {
-  margin: 0px auto;
-  padding: 50px 0px;
   border-bottom: 1px ridge;
-  min-width: 400px; }
+  min-height: 400px;
+  margin: 0px auto;
+  padding: 50px 0px; }
 
 .footer {
   background-color: #D1C4E9;
@@ -16,7 +16,7 @@
 .jumbotron {
   margin: 0px auto;
   padding: 70px 30px;
-  background: #9575CD;
+  background-color: #9575CD;
   color: floralwhite; }
 
 address {
@@ -42,9 +42,9 @@ body {
   .carousel .carousel-item {
     height: 300px; }
     .carousel .carousel-item img {
-      position: absolute;
-      top: 0;
-      left: 0;
+      position: relative;
+      top: 0px;
+      left: 0px;
       min-height: 300px; }
 
 #carouselButton {

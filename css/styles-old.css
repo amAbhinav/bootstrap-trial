@@ -73,3 +73,28 @@ body{
     bottom: 0px ;
     
 }
+
+
+
+
+
+.class div{color: red;}
+
+div.class{color:green;}
+    
+.pp{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    flex-direction: row;
+}
+
+.pp > div{
+    background-color: white;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    margin: 1px;
+}
+
